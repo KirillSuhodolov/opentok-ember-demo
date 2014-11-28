@@ -53,7 +53,8 @@ export default Ember.Component.extend({
   },
 
   isCallingNow: Ember.computed.alias('openTok.isCallingNow'),
-
+  isOutgoingCall: Ember.computed.alias('openTok.isOutgoingCall'),
+  isProConnected: Ember.computed.notEmpty('opetTok.connections'),
 
   isInSession: function() {
     return this.get('openTok.isSessionConnected') && this.get('openTok.isConnectionCreated');
@@ -79,7 +80,7 @@ export default Ember.Component.extend({
       this.openTok.disconnect();
     },
 
-    initializeCall: function() {
+    publish: function() {
       this.openTok.publish()
     },
 

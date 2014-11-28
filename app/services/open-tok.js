@@ -51,6 +51,10 @@ export default Ember.Object.extend({
   isConnectionCreated: false,
   isSessionConnected: false,
 
+  isOutgoingCall: function() {
+    return this.get('publisher') && !this.get('subscribers.length');
+  }.property('publisher', 'subscribers.length'),
+
   isCallingNow: function() {
     return this.get('publisher') && this.get('subscribers.length');
   }.property('publisher', 'subscribers.length'),
@@ -112,7 +116,7 @@ export default Ember.Object.extend({
       targetElement = targetElement || this.get('component.remoteVideoElement');
       params = params || this.get('component.remoteVideoOptions');
 
-      var subscriber =session.subscribe(stream, targetElement, params);
+      var subscriber = session.subscribe(stream, targetElement, params);
       this.get('subscribers').addObject(subscriber);
     }
   },
@@ -137,7 +141,7 @@ export default Ember.Object.extend({
   },
 
   initializeCall: function() {
-    this._initializeCall(this.get('connection.firstObject'));
+    this._initializeCall(this.get('connections.firstObject'));
   },
 
   _initializeCall: function(connection) {
@@ -189,6 +193,19 @@ export default Ember.Object.extend({
     });
   },
 
+  acceptCall: function() {
+    var localStream = this.get('localStream'),
+      remoteStream = this.get('streams.firstObject');
+
+    this.sendSignal({
+      type: "acceptcall",
+      to: remoteStream.connection,
+      data: {
+        streamId: localStream.streamId,
+        streamName: localStream.name
+      }
+    });
+  },
 
   /**
    * Session Handlers
@@ -258,11 +275,11 @@ export default Ember.Object.extend({
     this.set('isSessionConnected', false);
 
     //TODO: check if publisher, subscriber, stream props is null
-    alert(this.get('publisher'));
-    alert(this.get('subscribers'));
-    alert(this.get('streams'));
-    alert(this.get('localStream'));
-    alert(this.get('remoteStream'));
+    //alert(this.get('publisher'));
+    //alert(this.get('subscribers'));
+    //alert(this.get('streams'));
+    //alert(this.get('localStream'));
+    //alert(this.get('remoteStream'));
   },
 
   /**
@@ -292,8 +309,8 @@ export default Ember.Object.extend({
         type: "rejectcall",
         to: stream.connection,
         data: {
-          streamId: localStream.streamId,
-          streamName: localStream.name
+          streamId: null,
+          streamName: null
         }
       });
     }
@@ -314,6 +331,9 @@ export default Ember.Object.extend({
       localStream = this.get('localStream'),
       stream = streams.findBy('streamId', event.data.streamId);
 
+    this.unpublish(this.get('publisher'));
+    this.disconnect();
+
     alert('Call rejected by ' + name);
   },
 
@@ -332,18 +352,20 @@ export default Ember.Object.extend({
       localStream = this.get('localStream'),
       stream = streams.findBy('streamId', event.data.streamId);
 
+    //event.from return initializator
     if (confirm('Accept call from ' + name + ' ?')) {
-
+      this.subscribe(stream);
       this.publish();
     } else {
       this.sendSignal({
         type: "rejectcall",
         to: stream.connection,
         data: {
-          streamId: localStream.streamId,
-          streamName: localStream.name
+          streamId: null,
+          streamName: null
         }
       });
+      this.disconnect();
     }
   },
 
@@ -354,7 +376,11 @@ export default Ember.Object.extend({
 
   streamCreatedByPublisher: function(event) {
     this.set('localStream', event.stream);
-    this.initializeCall();
+    if (Em.isEmpty(this.get('subscribers'))) {
+      this.initializeCall();
+    } else {
+      this.acceptCall()
+    }
   },
 
   streamDestroyedByPublisher: function (event) {

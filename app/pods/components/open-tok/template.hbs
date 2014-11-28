@@ -10,9 +10,17 @@ My name {{currentUser.name}} and I am {{#if isPro}} pro {{else}} user {{/if}}
     <div id="remote-video"></div>
 
     {{#if isCallingNow}}
-        <button {{action 'endCall'}}>Finish Call</button>
+      {{#if isProConnected}}
+          <button {{action 'endCall'}}>Finish Call</button>
+      {{/if}}
     {{else}}
-        <button {{action 'beginCall'}}>Start Call</button>
+      {{#unless isPro}}
+        {{#if isOutgoingCall}}
+            wait please...
+        {{else}}
+            <button {{action 'publish'}}>Start Call</button>
+        {{/if}}
+      {{/unless}}
     {{/if}}
 
 {{else}}
