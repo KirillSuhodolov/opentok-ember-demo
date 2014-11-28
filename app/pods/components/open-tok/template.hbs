@@ -1,0 +1,23 @@
+My name {{currentUser.name}} and I am {{#if isPro}} pro {{else}} user {{/if}}
+
+<br>
+
+{{#if isInSession}}
+    <h2>Local Video</h2>
+    <div id="local-video"></div>
+
+    <h2>Remote Video</h2>
+    <div id="remote-video"></div>
+
+    {{#if isCallingNow}}
+        <button {{action 'endCall'}}>Finish Call</button>
+    {{else}}
+        <button {{action 'beginCall'}}>Start Call</button>
+    {{/if}}
+
+{{else}}
+    <br>
+    <label>{{input type='checkbox' checked=isPro}} is Pro</label>
+    <br>
+    <button {{action 'connect'}}>Connect to session</button>
+{{/if}}
