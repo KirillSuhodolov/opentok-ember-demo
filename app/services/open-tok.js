@@ -46,7 +46,7 @@ export default Ember.Object.extend({
   /**
    * session.getSubscribersForStream(stream) get subscribers.
    */
-  subscribers: null,
+  subscribers: [],
 
   isConnectionCreated: false,
   isSessionConnected: false,

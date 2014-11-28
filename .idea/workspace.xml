@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00f5df67-0c1d-4502-8b37-ea5794a707d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pods/components/open-tok/component.js" afterPath="$PROJECT_DIR$/app/pods/components/open-tok/component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/services/open-tok.js" afterPath="$PROJECT_DIR$/app/services/open-tok.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pods/components/open-tok/template.hbs" afterPath="$PROJECT_DIR$/app/pods/components/open-tok/template.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wecudos.iws" />
@@ -34,7 +32,7 @@
           <file leaf-file-name="application.hbs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="225">
+                <state vertical-scroll-proportion="-0.0" vertical-offset="30" max-vertical-offset="225">
                   <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
                   <folding />
                 </state>
@@ -44,8 +42,8 @@
           <file leaf-file-name="open-tok.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/services/open-tok.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.45132744" vertical-offset="4272" max-vertical-offset="5985">
-                  <caret line="312" column="26" selection-start-line="312" selection-start-column="26" selection-end-line="312" selection-end-column="26" />
+                <state vertical-scroll-proportion="0.38496584" vertical-offset="157" max-vertical-offset="5985">
+                  <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -56,36 +54,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
                   <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="765">
-                  <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/cordova/config.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285">
-                  <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ios.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/cordova/plugins/ios.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="2420" max-vertical-offset="3300">
-                  <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
                   <folding />
                 </state>
               </provider>
@@ -110,8 +78,8 @@
           <file leaf-file-name="template.hbs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/pods/components/open-tok/template.hbs">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.1875" vertical-offset="0" max-vertical-offset="880">
-                  <caret line="11" column="22" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="22" />
+                <state vertical-scroll-proportion="0.4943182" vertical-offset="0" max-vertical-offset="880">
+                  <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
                   <folding />
                 </state>
               </provider>
@@ -120,7 +88,7 @@
           <file leaf-file-name="component.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/pods/components/open-tok/component.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-11.230769" vertical-offset="548" max-vertical-offset="1515">
+                <state vertical-scroll-proportion="0.0" vertical-offset="548" max-vertical-offset="1515">
                   <caret line="56" column="62" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="62" />
                   <folding />
                 </state>
@@ -132,77 +100,7 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0" vertical-offset="3626" max-vertical-offset="5985">
                   <caret line="66" column="25" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="25" />
-                  <folding>
-                    <marker date="1417189427000" expanded="true" signature="112:10710" placeholder="{&quot;component&quot;: null...}" />
-                    <marker date="1417189427000" expanded="true" signature="1888:1961" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="2056:2145" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="2232:2494" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="2325:2488" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="2344:2410" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="2416:2482" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="2522:2623" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="2648:2754" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="2801:3250" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="2835:3246" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="2920:3151" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="3277:3396" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="3429:3547" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="3604:4007" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="3721:4003" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="4042:4239" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="4283:4653" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="4435:4597" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="4454:4522" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="4528:4591" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="4685:4753" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="4796:5030" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="4866:5024" placeholder="{&quot;type&quot;: &quot;initializecall&quot;...}" />
-                    <marker date="1417189427000" expanded="true" signature="4932:5018" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="5057:5158" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="5192:5467" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="5301:5461" placeholder="{&quot;type&quot;: &quot;begincall&quot;...}" />
-                    <marker date="1417189427000" expanded="true" signature="5369:5455" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="5492:5817" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="5646:5811" placeholder="{&quot;type&quot;: &quot;endcall&quot;...}" />
-                    <marker date="1417189427000" expanded="true" signature="5719:5805" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="6147:6178" placeholder="/** Session Handlers ...*/" />
-                    <marker date="1417189427000" expanded="true" signature="6182:6257" placeholder="/** Fires in every local and remote new stream ...*/" />
-                    <marker date="1417189427000" expanded="true" signature="6300:6485" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="6423:6481" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="6490:6569" placeholder="/** Fires on every local and remote stop streaming ...*/" />
-                    <marker date="1417189427000" expanded="true" signature="6614:6802" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="6737:6798" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="6807:6883" placeholder="/** Fires on every local and remote connection. ...*/" />
-                    <marker date="1417189427000" expanded="true" signature="6921:7165" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="7037:7089" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="7095:7161" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="7170:7246" placeholder="/** Fires on every local and remote connection. ...*/" />
-                    <marker date="1417189427000" expanded="true" signature="7286:7534" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="7402:7455" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="7461:7530" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="7539:7603" placeholder="/** Fires once at local application ...*/" />
-                    <marker date="1417189427000" expanded="true" signature="7640:7687" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="7692:7756" placeholder="/** Fires once at local application ...*/" />
-                    <marker date="1417189427000" expanded="true" signature="7796:8095" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="8100:8156" placeholder="/** Signal Session Handlers ...*/" />
-                    <marker date="1417189427000" expanded="true" signature="8193:8853" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="8426:8664" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="8481:8656" placeholder="{&quot;type&quot;: &quot;acceptcall&quot;...}" />
-                    <marker date="1417189427000" expanded="true" signature="8556:8648" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="8670:8849" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="8694:8841" placeholder="{&quot;type&quot;: &quot;rejectcall&quot;...}" />
-                    <marker date="1417189427000" expanded="true" signature="8892:9104" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="9143:9433" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="9469:9683" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="9726:10270" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="9997:10056" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="10062:10266" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="10086:10233" placeholder="{&quot;type&quot;: &quot;rejectcall&quot;...}" />
-                    <marker date="1417189427000" expanded="true" signature="10275:10326" placeholder="/** Publisher Handlers ...*/" />
-                    <marker date="1417189427000" expanded="true" signature="10372:10539" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="10589:10629" placeholder="{...}" />
-                    <marker date="1417189427000" expanded="true" signature="10670:10708" placeholder="{...}" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -300,7 +198,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,10 +213,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -340,10 +234,14 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -351,10 +249,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -419,21 +313,21 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.110910185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -451,9 +345,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1283906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -479,6 +373,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="225">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="765">
@@ -487,18 +397,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cordova/config.xml">
+    <entry file="file://$PROJECT_DIR$/config/environment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="596" max-vertical-offset="1515">
+          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pods/components/open-tok/template.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cordova/plugins/ios.json">
+    <entry file="file://$PROJECT_DIR$/app/pods/components/open-tok/component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2420" max-vertical-offset="3300">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="548" max-vertical-offset="1515">
+          <caret line="56" column="62" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/open-tok.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4272" max-vertical-offset="5985">
+          <caret line="312" column="26" selection-start-line="312" selection-start-column="26" selection-end-line="312" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="765">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -660,20 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.bowerrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="927">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="345">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/opentok.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38163716" vertical-offset="210" max-vertical-offset="7140">
@@ -681,38 +603,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3409091" vertical-offset="0" max-vertical-offset="880">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31526548" vertical-offset="0" max-vertical-offset="904">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06825939" vertical-offset="0" max-vertical-offset="879">
           <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.ember-cli">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="927">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Brocfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -735,24 +629,6 @@
         <state vertical-scroll-proportion="0.051136363" vertical-offset="0" max-vertical-offset="880">
           <caret line="3" column="81" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="81" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cordova/plugins/com.tokbox.cordova.opentok/www/opentok.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11615044" vertical-offset="0" max-vertical-offset="52755">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/assets/failed.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/assets/passed.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/unit/services/open-tok-test.js">
@@ -786,42 +662,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cordova/www/assets/vendor.js">
+    <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72505546" vertical-offset="1174356" max-vertical-offset="1180515">
-          <caret line="78334" column="251" selection-start-line="78334" selection-start-column="251" selection-end-line="78334" selection-end-column="251" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="225">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cordova/config.xml">
+    <entry file="file://$PROJECT_DIR$/app/pods/components/open-tok/component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="548" max-vertical-offset="1515">
+          <caret line="56" column="62" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cordova/plugins/ios.json">
+    <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2420" max-vertical-offset="3300">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.28977272" vertical-offset="0" max-vertical-offset="880">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3409091" vertical-offset="0" max-vertical-offset="880">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Brocfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18252212" vertical-offset="0" max-vertical-offset="904">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31526548" vertical-offset="0" max-vertical-offset="904">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06818182" vertical-offset="0" max-vertical-offset="880">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ember-cli">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="765">
+        <state vertical-scroll-proportion="0.2901024" vertical-offset="0" max-vertical-offset="879">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="225">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -834,26 +742,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pods/components/open-tok/component.js">
+    <entry file="file://$PROJECT_DIR$/app/services/open-tok.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.230769" vertical-offset="548" max-vertical-offset="1515">
-          <caret line="56" column="62" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="62" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3626" max-vertical-offset="5985">
+          <caret line="66" column="25" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pods/components/open-tok/template.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1875" vertical-offset="0" max-vertical-offset="880">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/open-tok.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45132744" vertical-offset="4272" max-vertical-offset="5985">
-          <caret line="312" column="26" selection-start-line="312" selection-start-column="26" selection-end-line="312" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.4943182" vertical-offset="0" max-vertical-offset="880">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
           <folding />
         </state>
       </provider>
